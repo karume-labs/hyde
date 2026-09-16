@@ -29,7 +29,7 @@
     },
     {
       "type": "kernel",
-      "key": "   Kernel",
+      "key": "   Kernel",
       "format": "{2}",
       "keyColor": "red"
     },
@@ -62,7 +62,7 @@
     "break",
     {
       "type": "title",
-      "key": "  ",
+      "key": "  ",
       "format": "{6} {7} {8}"
     },
     {
@@ -72,7 +72,7 @@
     {
       "type": "cpu",
       "format": "{1} @ {7}",
-      "key": "   CPU",
+      "key": "   CPU",
       "keyColor": "blue"
     },
     {
@@ -84,12 +84,12 @@
     {
       "type": "gpu",
       "format": "{3}",
-      "key": "   GPU Driver",
+      "key": "   GPU Driver",
       "keyColor": "magenta"
     },
     {
       "type": "memory",
-      "key": "   Memory",
+      "key": "    Memory",
       "keyColor": "magenta"
     },
     {

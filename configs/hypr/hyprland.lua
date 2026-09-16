@@ -87,6 +87,14 @@ hl.bind("SUPER + SHIFT + C", hl.dsp.exec_cmd("visual-studio-code-electron"), {
 hl.bind("SUPER + O", hl.dsp.exec_cmd("opencode-desktop"), {
     description = "[Launcher|Apps] OpenCode",
 })
+hl.bind("SUPER + N", hl.dsp.window.move({ out_of_group = true }), {
+    description = "[Window Management] remove active window from group",
+})
+-- SUPER + SHIFT + G (HyDE's game launcher) is unbound and repurposed
+hl.unbind("SUPER + SHIFT + G")
+hl.bind("SUPER + SHIFT + G", hl.dsp.window.move({ out_of_group = true }), {
+    description = "[Window Management] remove active window from group",
+})
 
 -- Open Dolphin tiled (overrides HyDE's floating rule for org.kde.dolphin)
 hl.window_rule({
@@ -95,3 +103,4 @@ hl.window_rule({
     tile = true,
     float = false,
 })
+
